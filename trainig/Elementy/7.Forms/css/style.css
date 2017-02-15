@@ -1,0 +1,5 @@
+.error {
+  color: red;
+  font-weight: 900;
+  background: rgba(255,0,0,.2);
+}

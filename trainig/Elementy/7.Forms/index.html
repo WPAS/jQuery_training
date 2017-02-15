@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>CodersLab</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<form method="post" action="http://api.coderslab.pl/showpost.php" id="contactForm">
+    <label>
+        Name:
+        <input id="nameInput" type="text" name="name">
+    </label>
+    <br>
+    <label>
+        Email:
+        <input id="emailInput" type="text" name="email">
+    </label>
+    <br>
+    <label>
+        Messgae:
+        <input id="messageInput" type="text" name="message">
+    </label>
+    <br>
+    <div class="error"></div>
+    <br>
+    <input type="submit">
+</form>
+
+<script src="../../../jquery-3.1.1.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

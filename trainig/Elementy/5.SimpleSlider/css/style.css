@@ -1,0 +1,23 @@
+.slider {
+  height: 250px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.slider ul {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slider li {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chosen {
+  background: lightblue;
+}

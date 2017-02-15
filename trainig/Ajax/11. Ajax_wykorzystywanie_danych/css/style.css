@@ -1,0 +1,45 @@
+html {
+    background: #E0E0E0;
+}
+body {
+    width: 500px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+}
+
+select, option {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E0E0E0;
+}
+
+select {
+    background: #00a99d;
+}
+
+option {
+    background: #4a4a49;
+}
+
+h1 {
+    color: #4a4a49;
+}
+
+.toMove {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background: red;
+  left: 200px;
+  top: 50px;
+}
+
+.toMove2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: violet;
+  left: 400px;
+  top: 250px;
+}
